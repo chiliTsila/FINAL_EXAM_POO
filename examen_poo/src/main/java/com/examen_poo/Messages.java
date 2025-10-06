@@ -29,6 +29,6 @@ public class Messages {
         System.out.println("Les informations sur le message: " + ID + " " + content);
         author.showDataUser();
         System.out.println("Publié dans la publication ID: " + publication.getID());
-    }
+    };
 
 }
