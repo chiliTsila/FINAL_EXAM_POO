@@ -9,6 +9,6 @@ public class AnonymousUser extends Users {
     @Override
     public void showDataUser() {
         System.out.println("L'utilisateur est anonyme");
-    }
+    };
     
 }
