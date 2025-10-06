@@ -1,5 +1,6 @@
 package com.examen_poo;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Publication {
@@ -8,8 +9,9 @@ public class Publication {
     private List<Messages> messages;
 
     public Publication(int ID, String content, Users author) {
-        this.ID = ID;
-        this.author = author;
+    this.ID = ID;
+    this.author = author;
+    this.messages = new ArrayList<>();
     }
 
     public int getID() {
@@ -26,6 +28,6 @@ public class Publication {
 
     public void addMessage(Messages message) {
         messages.add(message);
-    };
+    }
 
 }
