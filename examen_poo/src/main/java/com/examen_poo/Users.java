@@ -13,5 +13,4 @@ public abstract  class Users {
         this.ID = ID;
     }
 
-    public abstract void showDataUser();
 }
