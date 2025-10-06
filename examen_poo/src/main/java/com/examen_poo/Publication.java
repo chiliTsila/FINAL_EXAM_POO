@@ -26,6 +26,6 @@ public class Publication {
 
     public void addMessage(Messages message) {
         messages.add(message);
-    }
+    };
 
 }
