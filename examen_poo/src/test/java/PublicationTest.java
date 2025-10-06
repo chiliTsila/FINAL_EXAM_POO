@@ -17,8 +17,8 @@ public class PublicationTest {
     public void setUp() {
         author = new NormalUser(1, "Paul", "Durand", "paul@example.com");
         publication = new Publication(200, "Contenu de la publication", author);
-        message1 = new Messages(1, "Premier message", author, publication);
-        message2 = new Messages(2, "Deuxième message", author, publication);
+        message1 = new Messages(1, "Premier message", author, publication, true);
+        message2 = new Messages(2, "Deuxième message", author, publication, false);
     }
 
     @Test
