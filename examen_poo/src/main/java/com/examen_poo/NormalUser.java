@@ -19,5 +19,6 @@ public class NormalUser extends Users {
     @Override
     public void showDataUser() {
         System.out.println("les informations sur l'utilisateur: " + firsName + " " + lastName + " "+ email);
-    }
+    };
+    
 }
