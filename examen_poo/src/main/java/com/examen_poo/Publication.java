@@ -30,4 +30,12 @@ public class Publication {
         messages.add(message);
     }
 
+    public void showMessageAuthors() {
+        System.out.println("Auteurs des messages dans la publication " + ID + ":");
+        for (Messages msg : messages) {
+            msg.getAuthor().showDataUser();
+        }
+    }
+
+
 }
